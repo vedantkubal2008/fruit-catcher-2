@@ -54,10 +54,10 @@ class Game{
             
             players[index -1].x = x;
             players[index - 1].y = y;
-        textSize(15)
+        textSize(25)
         fill("white")
-        text("Player 1: "+allPlayers.player1.score,10,50)    
-        text("Player 2: "+allPlayers.player2.score,10,80);
+        text("Player 1: "+allPlayers.player1.score,50,50)    
+        text("Player 2: "+allPlayers.player2.score,50,100);
        
          if(player.score >= 10){
              this.end();
